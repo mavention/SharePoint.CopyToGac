@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mavention.VisualStudio.SharePoint.CopyToGac", "Mavention.VisualStudio.SharePoint.CopyToGac\Mavention.VisualStudio.SharePoint.CopyToGac.csproj", "{B4E750E9-9FAB-40F9-AEFF-3D5EFD08F739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mavention.VisualStudio.SharePoint.CopyToGac.Commands", "Mavention.VisualStudio.SharePoint.CopyToGac.Commands\Mavention.VisualStudio.SharePoint.CopyToGac.Commands.csproj", "{4849430B-3646-47EB-9A58-5FC939579EB5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = Mavention.VisualStudio.SharePoint.CopyToGac.Commands
+		SccLocalPath2 = Mavention.VisualStudio.SharePoint.CopyToGac
+		SccNumberOfProjects = 3
+		SccProjectName1 = Mavention.VisualStudio.SharePoint.CopyToGac.Commands
+		SccProjectName2 = Mavention.VisualStudio.SharePoint.CopyToGac
+		SccProjectUniqueName1 = Mavention.VisualStudio.SharePoint.CopyToGac.Commands\\Mavention.VisualStudio.SharePoint.CopyToGac.Commands.csproj
+		SccProjectUniqueName2 = Mavention.VisualStudio.SharePoint.CopyToGac\\Mavention.VisualStudio.SharePoint.CopyToGac.csproj
+		SccTeamFoundationServer = https://tfs.mavention.nl/tfs/mavention
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4849430B-3646-47EB-9A58-5FC939579EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4849430B-3646-47EB-9A58-5FC939579EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4849430B-3646-47EB-9A58-5FC939579EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4849430B-3646-47EB-9A58-5FC939579EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E750E9-9FAB-40F9-AEFF-3D5EFD08F739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E750E9-9FAB-40F9-AEFF-3D5EFD08F739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E750E9-9FAB-40F9-AEFF-3D5EFD08F739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E750E9-9FAB-40F9-AEFF-3D5EFD08F739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
