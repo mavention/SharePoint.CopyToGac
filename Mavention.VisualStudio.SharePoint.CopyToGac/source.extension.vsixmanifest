@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="Mavention.VisualStudio.SharePoint.CopyToGac.Microsoft.21ffeb22-cf9e-48ce-97b9-b38996703dd4">
+    <Name>Mavention Quick Deploy</Name>
+    <Author>Mavention</Author>
+    <Version>1.0.0.0</Version>
+    <Description xml:space="preserve">Allows you to quickly deploy the assembly from a SharePoint 2013 project by building your project, copying the assembly to GAC and resetting the Application Pool with a single mouse click.</Description>
+    <Locale>1033</Locale>
+    <License>License.txt</License>
+    <Icon>logo_m_35x35.png</Icon>
+    <InstalledByMsi>false</InstalledByMsi>
+    <SupportedProducts>
+      <VisualStudio Version="11.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+        <Edition>VSTS</Edition>
+        <Edition>VSTD</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="3.5" MaxVersion="4.5" />
+  </Identifier>
+  <Content>
+    <MefComponent>|Mavention.VisualStudio.SharePoint.CopyToGac|</MefComponent>
+    <CustomExtension Type="SharePoint.Commands.v5">|Mavention.VisualStudio.SharePoint.CopyToGac.Commands|</CustomExtension>
+  </Content>
+</Vsix>
